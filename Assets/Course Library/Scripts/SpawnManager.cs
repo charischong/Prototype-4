@@ -40,7 +40,6 @@ public class SpawnManager : MonoBehaviour
     void Update()
     {
         enemyCount = FindObjectsOfType<Enemy>().Length + FindObjectsOfType<HarderEnemy>().Length;
-        Debug.Log(enemyCount);
         if (enemyCount == 0) {
             var newEnemy = InitializeRandom();
             SpawnEnemyWave(newEnemy, waveNumber);

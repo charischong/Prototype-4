@@ -454,10 +454,10 @@ MonoBehaviour:
   speed: 5
   hasPowerup: 0
   powerupIndicator: {fileID: 249017780}
-  hangingTime: 5
+  hangingTime: 0.5
   smashSpeed: 10
-  explosionForce: 20
-  explosionDist: 10
+  explosionForce: 100
+  explosionDist: 50
   hasPowerIcon: 0
 --- !u!1 &1211016355
 GameObject:
